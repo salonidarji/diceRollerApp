@@ -48,9 +48,8 @@ export default class App extends React.Component{
   render() {
     return(
       <View style={styles.container}>
-      <Image 
-      source={this.state.uri}
-        />
+      <Image source={this.state.uri} />
+      
       <TouchableOpacity onPress={this.playButton}>
         <Text style={styles.gameButton}>
           Roll Dice
